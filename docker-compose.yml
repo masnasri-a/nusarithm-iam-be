@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     container_name: nusarithm-backend
     ports:
-      - "8080:8080"
+      - "8888:8080"
     env_file:
       - .env
     volumes:
